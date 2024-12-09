@@ -1,0 +1,61 @@
+.shadow {
+    box-shadow: 0.125rem 0.25rem 0.5rem rgba(0, 0, 0, 0.4);
+    margin: 50px;
+}
+
+.background {
+    background-color: #ffffff; /* Or you can set any color here */
+}
+
+.rounded {
+    border-radius: 0.75rem;
+}  
+
+.shadow.p-3.mb-5.bg-body.rounded {
+    min-height: 1000px;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+#inputField {
+    width: 300px; /* Set the width of the input field */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height:40px;
+}
+
+.result-header{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.55rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #ffffff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+  
