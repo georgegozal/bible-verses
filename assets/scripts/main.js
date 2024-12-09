@@ -13,11 +13,11 @@ function fetchBibleApi() {
     fetch(`${apiUrl}${inputField.value}`, {
     }).then(
         response => {
-            if (response.ok){
-                return response.json();
-            } else {
-                return;
+            // console.log(response);
+            if (!response.ok){
+                throw new Error(`API call failed with status: ${response.status}`);
             }
+            return response.json();
         }
     ).then(
         data => {
