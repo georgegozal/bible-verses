@@ -58,4 +58,7 @@ ul {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
 }
-  
+
+#result {
+    padding: 20px;
+}
